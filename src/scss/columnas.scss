@@ -1,0 +1,12 @@
+@charset 'UTF-8';
+
+@import "base/base",
+        // "base/body-simpson",
+        "base/fonts",
+        "base/typography";
+
+// CSS específico del layout
+@import 'components/buttons';
+
+// CSS específico de la página
+@import 'pages/columnas';

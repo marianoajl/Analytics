@@ -1,0 +1,94 @@
+{# extending #}
+{% extends "layout/_default.njk" %}
+<!-- Main CSS file por ahora lo ponemos aca pero tenemos que hacer un condicional en el layout creo, 
+veamos, porque desarrollo también tiene que cargar los estilos de cada página fuera del layout-->
+
+{# Bloque de estilos especificos de éstá página #}
+{% block css %}
+    <link rel="stylesheet" type="text/css" href="content/css/columnas.css">
+{% endblock %}
+<!-- endbuild -->
+
+
+{% block content %}
+
+    <article class="container-fluid">
+        <div class="container-xxl">
+            <section class="row height">
+                <div class="col-3 padding col-sm-2 col-lg-1"> 
+                    <div class="w uno"></div>            
+                </div>
+                <div class="col-3 padding col-sm-2 col-lg-1">
+                    <div class="w dos"></div> 
+                </div>
+                <div class="col-3 padding col-sm-2 col-lg-1">
+                    <div class="w tres"></div> 
+                </div>
+                <div class="col-3 padding col-sm-2 col-lg-1">
+                    <div class="w cuatro"></div> 
+                </div>
+                <div class="col-3 padding col-sm-2 col-lg-1">
+                    <div class="w cinco"></div> 
+                </div>
+                <div class="col-3 padding col-sm-2 col-lg-1">
+                    <div class="w seis"></div> 
+                </div>
+                <div class="col-3 padding col-sm-2 col-lg-1">
+                    <div class="w siete"></div> 
+                </div>
+                <div class="col-3 padding col-sm-2 col-lg-1">
+                    <div class="w ocho"></div> 
+                </div>
+                <div class="col-3 padding col-sm-2 col-lg-1">
+                    <div class="w nueve"></div> 
+                </div>
+                <div class="col-3 padding col-sm-2 col-lg-1">
+                    <div class="w diez"></div> 
+                </div>
+                <div class="col-3 padding col-sm-2 col-lg-1">
+                    <div class="w once"></div> 
+                </div>
+                <div class="col-3 padding col-sm-2 col-lg-1">
+                    <div class="w doce"></div> 
+                </div>
+            </section>
+        </div>
+        {# Header #}
+        <section class="row p-0 header">
+            <div class="padding p-0 col"> 
+                <div class="w uno"></div>            
+            </div>
+        </section>
+        {# Aside Menú + Content #}
+        <div class="container-xxl">
+            <section class="row main">
+                {# Aside Menú #}
+                <div class="col-6 col-lg-4 col-xl-3 ">
+                    <div class="w dos"></div> 
+                </div>
+                {# Content #}
+                <div class="col-6 col-lg-8 col-xl-9 ">
+                    <div class="w tres"></div>
+                </div>
+            </section>
+        </div>
+        {# Footer #}
+        <div class="container-xxl">
+            <section class="row footer">
+                <div class="padding col">
+                    <div class="w cuatro"></div> 
+                </div>
+            </section>
+        </div>
+    </article>
+
+{% endblock %}
+
+{% block js %}
+    {# Bloque de estilos especificos de éstá página #}
+    <script type="text/javascript" src="content/js/index.js"></script>
+    <script>
+        var hola = "Hola mundo";
+        console.log(hola);
+    </script>
+{% endblock %}

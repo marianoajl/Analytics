@@ -1,0 +1,9 @@
+.grid-aside {
+    width: 100%;
+    max-width: $max-width;
+    display: grid;
+    grid-template-columns: 228px auto; // aside-menu - contenido página
+    grid-template-areas: "menu content";
+    grid-auto-rows: minmax(1000px, auto);
+    grid-gap: 10px;
+}

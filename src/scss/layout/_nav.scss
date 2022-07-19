@@ -1,0 +1,16 @@
+.nav-bar { 
+    position: fixed;
+    max-width: var(--bs-max-width);
+    z-index: 999;
+    background: $white;
+}
+.nav {
+    height: 5rem;
+    background-color: var(--bs-lipstick);
+}
+
+.logo {
+    // width: 100%;
+    height: 100%;
+    background-color: var(--bs-dark-gray);
+}

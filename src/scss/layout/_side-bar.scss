@@ -1,0 +1,37 @@
+.side-bar {
+    // position: sticky;
+    top: 7rem;
+    width: 100%;
+    max-width: $sidebar-max-width;
+    height: 700px;
+    background-color: var(--bs-light-gray);
+}
+
+.list-item {
+    position: sticky;
+    top: 7rem;
+    // margin-top: 2rem;
+    // margin-bottom: 7rem;
+    list-style-type: none;
+
+    .item{
+
+        &:hover {
+            color: var(--bs-lipstick);
+            border-left: 5px solid var(--bs-lipstick);
+        }
+    } 
+}
+
+.item_link {
+    text-decoration: none;
+
+    &:hover {
+        color: var(--bs-lipstick);
+    }
+
+    .border-left {
+        margin-right: 2rem;
+    }
+}
+

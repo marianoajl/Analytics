@@ -1,0 +1,10 @@
+{# Inputs Floating-labels - BOOTSTRAP #}
+{% macro floatingLabels (type="text", id="id", class__input, class, label, placeholder, text_invalid) %}
+    <div class="form-floating {{ class__input }}">
+        <input type="{{ type }}" class="form-control focus-input {{ class }}" id="{{ id }}" placeholder="{{ placeholder }}" required>
+        <label for="floatingPassword">{{ label }}</label>
+        <div class="invalid-feedback">
+            {{ text_invalid }}
+        </div>
+    </div>
+{% endmacro %}

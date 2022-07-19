@@ -1,0 +1,17 @@
+@charset 'UTF-8';
+
+@import "base/base",
+        "base/grid-center",
+        "base/fonts",
+        "base/typography";
+
+
+// CSS específico del layout
+@import 'components/buttons',
+        'layout/navigation',
+        'layout/footer';
+
+// CSS específico de la página
+@import 'pages/login',
+        "pages/login/login-section",
+        "pages/login/login-social";

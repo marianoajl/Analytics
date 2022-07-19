@@ -1,0 +1,15 @@
+@charset 'UTF-8';
+
+@import "base/base",
+        "base/grid-w-aside",
+        "base/fonts",
+        "base/typography";
+
+// CSS específico del layout
+@import 'components/buttons',
+        'layout/navigation',
+        'layout/aside-menu',
+        'layout/footer';
+    
+// CSS específico de la página
+@import 'pages/index';

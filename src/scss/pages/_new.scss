@@ -1,0 +1,31 @@
+.main {
+    max-width: var(--bs-max-width);
+    margin-top: 5rem;
+}
+
+.content {
+    height: 70rem;
+    background-color: var(--bs-othergray);
+}
+
+.columnas {
+    height: 1.25rem;
+    background-color: yellow;
+}
+
+.section {
+    width: 100%;
+    height: 25%;
+    background-color: var(--bs-light-blue);
+}
+
+.article {
+    background-color: var(--bs-dark);
+    border-radius: 20px;
+}
+
+.columnas-content {
+    width: 100%;
+    height: 1.25rem;
+    background-color: yellow;
+}

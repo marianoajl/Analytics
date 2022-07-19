@@ -1,0 +1,112 @@
+//****************************************************
+//                 CSS DEL ASIDE-MENU
+//****************************************************
+
+.menu {
+    width: 100%;
+    padding: 10px 7px 0 7px;
+    background: $white;
+}
+
+.aside {
+    position: sticky;
+    top: 136px;
+}
+
+.list_unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.first_level {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: 8px;
+    height: 2rem;
+    padding: 0px;
+    font-size: 0.875rem;
+    font-weight: 400;
+    text-transform: none;
+    border-radius: 0;
+
+    &:hover {
+        font-weight: 500;
+        color: $lipstick;
+    
+        &::before {
+            position: absolute;
+            left: -10px;
+            top: -1px;
+            height: 2rem;
+            content: '';
+            border: 1px solid $lipstick;
+            outline: none;
+        }
+    }
+
+    &:focus{
+        font-weight: 500;
+        color: $lipstick;
+        outline: none;
+        box-shadow: none;
+
+        &::before {
+            position: absolute;
+            left: -10px;
+            top: -1px;
+            height: 2rem;
+            content: '';
+            border: 2px solid $lipstick;
+            outline: none;
+        }
+    }
+
+    .arrow_menu {
+        position: absolute;
+        width: 0.698rem;
+        height: 0.411rem;
+        left: 11.8rem;
+        background: url(../img/icons/arrow-menu.svg) no-repeat center;
+    
+        &:hover {
+            fill: $lipstick;
+            stroke: $lipstick;
+        }
+    }
+}
+
+.second_level_wrapper {
+    list-style: none;
+    padding: 0px 0px 0px 22px;
+
+    .second_level {
+        position: relative;
+        display: flex;
+        align-items: center;
+        height: 1.6rem;
+        font-size: 0.875rem;
+        font-weight: 400;
+        color: $bs-dark;
+        text-decoration: none;
+
+        &:hover {
+        color: $bs-dark;
+        font-weight: 500;
+        }
+
+        &:focus {
+        font-weight: 500;
+        }
+
+        &.current-view {
+            font-weight: 500;
+            color: $bs-dark;
+        }
+    }
+}
+
+
+

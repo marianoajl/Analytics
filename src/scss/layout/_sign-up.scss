@@ -1,0 +1,54 @@
+.section {
+    margin-top: 2.25rem;
+
+    .sentence {
+        font-size: 1.75rem;
+        color: var(--bs-black);
+    }
+
+    .paragraph {
+        margin-top: 0.188rem;
+        font-size: 1rem;
+        color: var(--bs-dark-gray);
+    }
+}
+
+.form {
+    margin-top: 2.25rem;
+
+    .form-floating {
+        margin-bottom: 0.188rem;
+        font-size: 0.875rem;
+        font-weight: 400;
+        color: var(--bs-black50);
+        border: none;
+        border-bottom: 0.063rem solid var(--bs-inac-b-bottom);
+
+        .form-control { 
+            border: none;
+            box-shadow: none;
+            background-color: var(--bs-transparent);
+        }
+
+        .open-eye {
+            display: none;
+        }
+    }
+}
+
+    
+.button {
+    margin-top: 2.313rem;
+
+    .register {
+        width: 8.25rem;
+        height: 3.5rem;
+        border-radius: 1.875rem;
+        border: 0.063rem solid var(--bs-lipstick);
+        color: var(--bs-lipstick);
+        font-size: 0.625rem;
+        font-weight: 600;
+        background-color: var(--bs-transparent);
+        letter-spacing: 0.05rem;
+    }
+}

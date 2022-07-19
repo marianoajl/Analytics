@@ -1,0 +1,212 @@
+{
+
+   "es" : 
+      {  
+         "renovas" : {
+            "nombre" : "Juan Facundo",
+            "saludo" : "Buen día",
+            
+            "cardsItems" : [
+               {  
+                  "card_link":"https://css-tricks.com/snippets/css/complete-guide-grid/",
+                  "card_title":"Pedir un reintegro",
+                  "card_subtitle":"¿Tuviste una asistencia en viaje?",
+                  "card_text":"Vas a encontrar toda la ayuda que necesitás los 365 días del año, las 24 hs del dia"
+               },
+               {  
+                  "card_link":"https://css-tricks.com/difference-explicit-implicit-grids/",
+                  "card_title":"Estas medio loquito",
+                  "card_subtitle":"Ponte en contacto con nosotros para solicitar asistencia por nuestra APP Assist Card o telefónica desde donde estés.",
+                  "card_text":"Nuestros profesionales están disponibles las 24H del día."
+               },
+               {  
+                  "card_link":"https://css-tricks.com/difference-explicit-implicit-grids/",
+                  "card_title":"Asistencia con mi equipaje",
+                  "card_subtitle":"¿Tu equipaje está demorado  o extraviado?",
+                  "card_text":"Vas a encontrar toda la ayuda que necesitás los 365 días del año, las 24 hs del día"
+               },
+               {  
+                  "card_link":"https://css-tricks.com/snippets/css/complete-guide-grid/",
+                  "card_title":"QUEEE de otro tipo",
+                  "card_subtitle":"¿Perdiste el Pasaporte o tuviste  un inconveniente?",
+                  "card_text":"Nuestros profesionales están disponibles las 24H del día."
+               }
+            ]
+         } 
+      },
+   
+   "en" : 
+      {  
+         "renovas" : {
+            "nombre" : "Juan Facundo",
+            "saludo" : "Good morning",
+            
+            "cardsItems" : [
+               {  
+                  "card_link":"https://css-tricks.com/snippets/css/complete-guide-grid/",
+                  "card_title":"Request a refund",
+                  "card_subtitle":"Did you have travel assistance?",
+                  "card_text":"You will find all the help you need 365 days a year, 24 hours a day."
+               },
+               {  
+                  "card_link":"https://css-tricks.com/difference-explicit-implicit-grids/",
+                  "card_title":"You are half crazy",
+                  "card_subtitle":"Contact us to request assistance through our APP Assist Card or by phone from wherever you are.",
+                  "card_text":"Our professionals are available 24 hours a day."
+               },
+               {  
+                  "card_link":"https://css-tricks.com/difference-explicit-implicit-grids/",
+                  "card_title":"Assistance with my luggage",
+                  "card_subtitle":"Is your luggage delayed or lost?",
+                  "card_text":"You will find all the help you need 365 days a year, 24 hours a day"
+               },
+               {  
+                  "card_link":"https://css-tricks.com/snippets/css/complete-guide-grid/",
+                  "card_title":"Assistance of another kind",
+                  "card_subtitle":"Did you lose your passport or did you have a problem?",
+                  "card_text":"Our professionals are available 24 hours a day."
+               }
+            ]
+         } 
+      },
+
+   "pt" : 
+      {  
+         "renovas" : {
+            "nombre" : "Juan Facundo",
+            "saludo" : "Bom dia",
+            
+            "cardsItems" : [
+               {  
+                  "card_link":"https://css-tricks.com/snippets/css/complete-guide-grid/",
+                  "card_title":"Peça um reembolso",
+                  "card_subtitle":"Teve assistência em viagem?",
+                  "card_text":"Você encontrará toda a ajuda de que precisa 365 dias por ano, 24 horas por dia."
+               },
+               {  
+                  "card_link":"https://css-tricks.com/difference-explicit-implicit-grids/",
+                  "card_title":"Você é meio louco",
+                  "card_subtitle":"Entre em contato conosco para solicitar assistência através do nosso APP Assist Card ou por telefone de onde você estiver.",
+                  "card_text":"Nossos profissionais estão disponíveis 24 horas por dia."
+               },
+               {  
+                  "card_link":"https://css-tricks.com/difference-explicit-implicit-grids/",
+                  "card_title":"Assistência com minha bagagem",
+                  "card_subtitle":"Sua bagagem está atrasada ou perdida?",
+                  "card_text":"Você encontrará toda a ajuda de que precisa 365 dias por ano, 24 horas por dia"
+               },
+               {  
+                  "card_link":"https://css-tricks.com/snippets/css/complete-guide-grid/",
+                  "card_title":"Assistência de outro tipo",
+                  "card_subtitle":"Perdeu o passaporte ou teve algum problema?",
+                  "card_text":"Nossos profissionais estão disponíveis 24 horas por dia."
+               }
+            ]
+         } 
+      },
+
+   "navMenu": [
+      {
+         "item_link": "/",
+         "link_title": "Home",
+         "item_name": "Hola"
+      },
+      {
+         "item_link": "features.html",
+         "link_title": "Features",
+         "item_name": "Cómo estan?"
+      },
+      {
+         "item_link": "pricing.html",
+         "link_title": "Pricing",
+         "item_name": "Pricing"
+      },
+      {
+         "item_link": "faqs.html",
+         "link_title": "FAQs",
+         "item_name": "FAQs"
+      },
+      {
+         "item_link": "/about.html",
+         "link_title": "About",
+         "item_name": "About"
+      }
+   ],
+   "footerItems": [
+      {
+         "footer_links": [
+            {
+               "item_title": "Features",
+               "pages": [
+                  {
+                     "item_link": "#",
+                     "item_name": "Cool stuff"
+                  },
+                  {
+                     "item_link": "#",
+                     "item_name": "Random feature"
+                  },
+                  {
+                     "item_link": "#",
+                     "item_name": "Team feature"
+                  },
+                  {
+                     "item_link": "#",
+                     "item_name": "Stuff for developers"
+                  },
+                  {
+                     "item_link": "#",
+                     "item_name": "Another one"
+                  },
+                  {
+                     "item_link": "#",
+                     "item_name": "Last time"
+                  }
+               ]
+            },
+            {
+               "item_title": "Resources",
+               "pages": [
+                  {
+                     "item_link": "#",
+                     "item_name": "Resource"
+                  },
+                  {
+                     "item_link": "#",
+                     "item_name": "Resource name"
+                  },
+                  {
+                     "item_link": "#",
+                     "item_name": "Another resource"
+                  },
+                {
+                     "item_link": "#",
+                     "item_name": "Final resource"
+                  }
+               ]
+            },
+            {
+               "item_title": "About",
+               "pages": [
+                  {
+                     "item_link": "#",
+                     "item_name": "Buenas, buenas"
+                  },
+                  {
+                     "item_link": "#",
+                     "item_name": "Dónde estoy?"
+                  },
+                  {
+                     "item_link": "#",
+                     "item_name": "Qué?"
+                  },
+                  {
+                     "item_link": "#",
+                     "item_name": "Terms"
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

@@ -1,2 +1,2 @@
-# analytics
+# Analytics
 Prueba de Google Analytics

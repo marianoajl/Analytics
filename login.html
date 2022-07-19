@@ -125,16 +125,14 @@
         <section class="form__content">
             <form action="" class="mrg__b--16 needs-validation" novalidate>
                 <div class="form-floating form__inputs mrg__b--28">
-                    <input type="email" class="form-control focus-input " id="email" placeholder="Ingrese correo electrónico" required>
+                    <input type="email" class="form-control focus-input " id="email" placeholder="Correo electrónico" required>
                     <label for="floatingPassword">Correo electrónico</label>
-                    <div class="invalid-feedback">
-                    </div>
+                    <div class="invalid-feedback"> Ingrese correo electrónico </div>
                 </div>
                 <div class="form-floating form__inputs mrg__b--42">
-                    <input type="password" class="form-control focus-input " id="password" placeholder="Ingrese contraseña" required>
+                    <input type="password" class="form-control focus-input " id="password" placeholder="Contraseña" required>
                     <label for="floatingPassword">Contraseña</label>
-                    <div class="invalid-feedback">
-                    </div>
+                    <div class="invalid-feedback"> Ingrese contraseña </div>
                 </div>
                 <button type="submit" role="button" id="button" class="form__button btn">iniciar sesión</button>
             </form>
@@ -146,16 +144,16 @@
             <hr class="hr">
         </div>
         <section class="form__content">
-            <button type="button" class="btn form__button--social mrg__b--16">
+            <button type="button" id="google" class="btn form__button--social mrg__b--16">
                 <i class="google-icon"></i> Continua con Google </button>
-            <button type="button" class="btn form__button--social mrg__b--16">
+            <button type="button" id="facebook" class="btn form__button--social mrg__b--16">
                 <i class="facebook-icon"></i> Continua con Facebook </button>
-            <button type="button" class="btn form__button--social">
+            <button type="button" id="apple" class="btn form__button--social">
                 <i class="apple-icon"></i> Continua con Apple </button>
         </section>
     </article>
     <script src="content/js/vendors/bootstrap-5.0.2/bootstrap.bundle.js"></script>
-    <script type="text/javascript" src="content/js/index.js"></script>
+    <script type="text/javascript" src="content/js/login.js"></script>
     <script>
         var hola = "Hola mundo";
         console.log(hola);

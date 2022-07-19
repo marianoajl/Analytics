@@ -21,3 +21,24 @@
         );
     });
 })();
+
+// --- EVENTOS PARA GOOGLE ANALYTICS --- //
+// Evento NRf_FromHome (Reintegro desde la Home)
+const refund = document.getElementById("requestRefund");
+refund.addEventListener("click", () => {
+    console.log(refund);
+    gtag("event", "NRf_FromHome", {
+        link_text: refund.innerText,
+        link_id: refund.id,
+    });
+})
+
+// Evento RegistrarPortal
+const register = document.getElementById("register");
+register.addEventListener("click", () => {
+    gtag("event", "RegistrarPortal", {
+        link_text: register.innerText,
+        link_id: register.id,
+        link_url: register.href,
+    });
+});

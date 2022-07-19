@@ -1,12 +1,11 @@
-
 // --- EVENTOS PARA GOOGLE ANALYTICS --- //
 const portal = document.getElementById("login-portal");
-const google = document.getElementById("google-login");
-const facebook = document.getElementById("facebook-login");
 const apple = document.getElementById("apple-login");
+const facebook = document.getElementById("facebook-login");
+const google = document.getElementById("google-login");
 const register = document.getElementById("register");
 
-//Evento IngresarPortal
+// Evento IngresarPortal
 portal.addEventListener("click", () => {
     gtag("event", "ingresarPortal", {
         link_text: portal.innerText,
@@ -43,6 +42,7 @@ register.addEventListener("click", () => {
     gtag("event", "RegistrarPortal", {
         link_text: register.innerText,
         link_id: register.id,
+        link_url: register.href,
     });
 });
 // --- FIN DE EVENTOS --- //

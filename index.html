@@ -19,16 +19,6 @@
     <meta name="appleid-signin-redirect-uri" content="[REDIRECT_URI]">
     <meta name="appleid-signin-state" content="[STATE]">
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-B7WC1MSXK3"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-        gtag('config', 'G-B7WC1MSXK3');
-    </script>
     <link rel="stylesheet" type="text/css" media="screen" href="content/css/vendors/bootstrap-5.0.2/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="content/css/index.css">
 </head>
@@ -115,7 +105,7 @@
             </a>
             <div class="header__signup">
                 <span class="header__text">¿Nuevo en ASSIST CARD?</span>
-                <a href="" id="register" class="link__button" role="button">registrate</a>
+                <a href="index.html" id="register" class="link__button" role="button">registrate</a>
             </div>
         </nav>
     </header>
@@ -159,31 +149,31 @@
             </h4>
             <section class="cards-container">
                 <article class="cards">
-                    <a class="cards__link" href="simpson.html" role="button"></a>
-                    <h6 class="cards__title">Peça um reembolso</h6>
-                    <p class="cards__subtitle">Teve assistência em viagem?</p>
-                    <span class="cards__text">Você encontrará toda a ajuda de que precisa 365 dias por ano, 24 horas por dia.</span>
-                    <p class="cards_arrow"></p>
-                </article>
-                <article class="cards">
-                    <a class="cards__link" href="form.html" role="button"></a>
+                    <a id="medicalAssistance" class="cards__link" href="form.html" role="button"></a>
                     <h6 class="cards__title">Você é meio louco</h6>
                     <p class="cards__subtitle">Entre em contato conosco para solicitar assistência através do nosso APP Assist Card ou por telefone de onde você estiver.</p>
                     <span class="cards__text">Nossos profissionais estão disponíveis 24 horas por dia.</span>
                     <p class="cards_arrow"></p>
                 </article>
                 <article class="cards">
-                    <a class="cards__link" href="columnas.html" role="button"></a>
+                    <a id="assistanceLuggage" class="cards__link" href="columnas.html" role="button"></a>
                     <h6 class="cards__title">Assistência com minha bagagem</h6>
                     <p class="cards__subtitle">Sua bagagem está atrasada ou perdida?</p>
                     <span class="cards__text">Você encontrará toda a ajuda de que precisa 365 dias por ano, 24 horas por dia</span>
                     <p class="cards_arrow"></p>
                 </article>
                 <article class="cards">
-                    <a class="cards__link" href="login.html" role="button"></a>
+                    <a id="assistanceAnotherKind" class="cards__link" href="simpson.html" role="button"></a>
                     <h6 class="cards__title">Assistência de outro tipo</h6>
                     <p class="cards__subtitle">Perdeu o passaporte ou teve algum problema?</p>
                     <span class="cards__text">Nossos profissionais estão disponíveis 24 horas por dia.</span>
+                    <p class="cards_arrow"></p>
+                </article>
+                <article class="cards">
+                    <a id="requestRefund" class="cards__link" href="login.html" role="button"></a>
+                    <h6 class="cards__title">Peça um reembolso</h6>
+                    <p class="cards__subtitle">Teve assistência em viagem?</p>
+                    <span class="cards__text">Você encontrará toda a ajuda de que precisa 365 dias por ano, 24 horas por dia.</span>
                     <p class="cards_arrow"></p>
                 </article>
             </section>
@@ -257,13 +247,15 @@
             </div>
         </footer>
     </div>
-    <script src="content/js/vendors/bootstrap-5.0.2/bootstrap.bundle.js"></script>
+    <!-- Linkeo con Firebase/Google Analytics -->
+    <script type="module" src="content/js/analytics-CDN.js"></script>
     <script type="text/javascript" src="content/js/index.js"></script>
     <script>
         document.addEventListener("click", (event) => {
             console.log(event.target);
         })
     </script>
+    <script type="text/javascript" src="content/js/vendors/bootstrap-5.0.2/bootstrap.bundle.js"></script>
 </body>
 
 </html>
